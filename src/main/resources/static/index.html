@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><a href="/books/all">Get all books</a></p>
+<p>To adding single book to DB, send <a href="/books/add">POST</a> request with book name at request body.</p>
+<p>To adding 1000 random books to DB, send <a href="/books/add1000">POST</a> request.</p>
+<form action="/books/add1000" method="post">
+    <button type="submit" name="" value="" class="btn-link">POST 1000 books</button>
+</form>
+</body>
+</html>
